@@ -1,0 +1,67 @@
+{
+	"instagram": {
+		"username": "enter your instagram username",
+		"password": "enter your instagram password",
+		"seed": "enter seed (jusy any word)",
+		"credits_in_caption": false,
+		"credits_format": "Mirrored from a post on %subreddit% by %user%: %url%",
+		"restart_every": 0
+	},
+	"reddit": {
+		"subreddits": {
+			  "/r/gif": 90,
+			  "/r/aww": 5,
+			  "/r/interestingasfuck": 5
+		},
+		"credentials": {
+			"userAgent": "enter your user agent (jusy any word)",
+			"clientId": "enter your Reddit App Client ID",
+			"clientSecret": "enter your Reddit Api Secret Key",
+			"username": "enter your reddit username",
+			"password": "enter your reddit password"
+		}
+	},
+	"discord": {
+		"enabled": false,
+		"token": "ENTER_DISCORD_TOKEN_HERE_THEN_ENABLE",
+		"prefix": "!",
+		"channels": {
+			"commands": "ENTER_CHANNEL_ID_HERE",
+			"system": "ENTER_CHANNEL_ID_HERE"
+		}
+	},
+	"schedule": {
+		"human_error": {
+			"min": 20,
+			"max": 320
+		},
+		"hourly_timings": [
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11,17,18,19,20,21,22, 23,24,25,26,27,28,29,30, 32, 39, 51],
+			[1, 11,17,18,19,20,21,22, 23,24,25,26,27,28,29,30, 32, 39,40,41,42, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51],
+			[1, 11, 23, 32, 39, 51]
+		]
+	}
+}

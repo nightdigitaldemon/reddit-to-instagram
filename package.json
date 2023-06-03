@@ -1,0 +1,35 @@
+{
+  "name": "reddit-to-insta-bot",
+  "version": "0.0.1",
+  "description": "A bot for Instagram which pulls images from Reddit",
+  "main": "bot.js",
+  "scripts": {
+    "start": "forever start -l forever.log -o out.log -e err.log bot.js",
+    "debug": "NODE_ENV=dev DEBUG=* node bot.js",
+    "debug-noig": "NODE_ENV=dev DEBUG=* node bot.js -debug om3qwy",
+    "debug-forceig": "NODE_ENV=dev DEBUG=* node bot.js -forceig -debug om3qwy",
+    "settings": "nano settings.json"
+  },
+  "keywords": [
+    "instagram",
+    "reddit",
+    "bot"
+  ],
+  "author": "Freek Bes and OZ DAO",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/FreekBes/insta_reddit_bot#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^12.5.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "forever": "^4.0.3",
+    "https": "^1.0.0",
+    "image-type": "^4.1.0",
+    "instagram-private-api": "^1.39.0",
+    "jimp": "^0.16.1",
+    "lookpath": "^1.2.0",
+    "request": "^2.88.0",
+    "sharp": "^0.32.1",
+    "snoowrap": "^1.23.0",
+  }
+}
